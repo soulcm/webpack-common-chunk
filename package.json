@@ -1,0 +1,31 @@
+{
+  "name": "commons-chunk",
+  "version": "1.0.0",
+  "description": "commons chunk plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:task1": "webpack --config config/webpack.config.1.js --progress --colors",
+    "build:task2": "webpack --progress --colors",
+    "build:task3": "webpack --progress --colors",
+    "build:task4": "webpack --progress --colors",
+    "build:task5": "webpack --progress --colors",
+    "clean": "rm -rf dist/"
+  },
+  "keywords": [
+    "webpack",
+    "commonschunk"
+  ],
+  "author": "soulcm",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "vue": "^2.2.6",
+    "vue-router": "^2.3.1"
+  }
+}
