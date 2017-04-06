@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:task1": "webpack --config config/webpack.config.1.js --progress --colors",
-    "build:task2": "webpack --progress --colors",
-    "build:task3": "webpack --progress --colors",
-    "build:task4": "webpack --progress --colors",
-    "build:task5": "webpack --progress --colors",
+    "build:task2": "webpack --config config/webpack.config.2.js --progress --colors",
+    "build:task3": "webpack --config config/webpack.config.3.js --progress --colors",
+    "build:task4": "webpack --config config/webpack.config.4.js --progress --colors",
+    "build:task5": "webpack --config config/webpack.config.5.js --progress --colors",
     "clean": "rm -rf dist/"
   },
   "keywords": [
