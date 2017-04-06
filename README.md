@@ -1,0 +1,2 @@
+# webpack-common-chunk
+CommonsChunkPlugin
